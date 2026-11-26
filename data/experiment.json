@@ -1,0 +1,119 @@
+{
+  "generated_utc": "2026-11-26T07:29:20+00:00",
+  "flag_mode": "flagsmith",
+  "live_flags": {
+    "trader_strategy": "conservative",
+    "enable_lyzr_reasoning": true,
+    "risk_per_trade": 0.1
+  },
+  "coins": {
+    "ETH": {
+      "n_points": 721,
+      "first_close": 2311.661278336695,
+      "last_close": 1689.034272131095,
+      "buy_and_hold": {
+        "final_value": 7306.58,
+        "return_pct": -26.93
+      },
+      "variants": {
+        "conservative": {
+          "final_value": 10000.0,
+          "return_pct": 0.0,
+          "max_drawdown_pct": 0.0,
+          "n_trades": 0,
+          "trades": []
+        },
+        "balanced": {
+          "final_value": 10000.0,
+          "return_pct": 0.0,
+          "max_drawdown_pct": 0.0,
+          "n_trades": 0,
+          "trades": []
+        },
+        "aggressive": {
+          "final_value": 9568.01,
+          "return_pct": -4.32,
+          "max_drawdown_pct": 6.67,
+          "n_trades": 3,
+          "trades": [
+            {
+              "i": 223,
+              "action": "BUY",
+              "price": 2339.871170677634,
+              "qty": 0.854748,
+              "spend_usd": 2000.0
+            },
+            {
+              "i": 654,
+              "action": "SELL",
+              "price": 1805.0349440075238,
+              "qty": 0.854748,
+              "proceeds_usd": 1542.85
+            },
+            {
+              "i": 681,
+              "action": "BUY",
+              "price": 1667.0531818639815,
+              "qty": 1.144876,
+              "spend_usd": 1908.57
+            }
+          ]
+        }
+      }
+    },
+    "BTC": {
+      "n_points": 721,
+      "first_close": 79706.4916339834,
+      "last_close": 60517.75030119535,
+      "buy_and_hold": {
+        "final_value": 7592.57,
+        "return_pct": -24.07
+      },
+      "variants": {
+        "conservative": {
+          "final_value": 10000.0,
+          "return_pct": 0.0,
+          "max_drawdown_pct": 0.0,
+          "n_trades": 0,
+          "trades": []
+        },
+        "balanced": {
+          "final_value": 10000.0,
+          "return_pct": 0.0,
+          "max_drawdown_pct": 0.0,
+          "n_trades": 0,
+          "trades": []
+        },
+        "aggressive": {
+          "final_value": 9655.94,
+          "return_pct": -3.44,
+          "max_drawdown_pct": 5.75,
+          "n_trades": 3,
+          "trades": [
+            {
+              "i": 223,
+              "action": "BUY",
+              "price": 78172.4947994866,
+              "qty": 0.025584,
+              "spend_usd": 2000.0
+            },
+            {
+              "i": 654,
+              "action": "SELL",
+              "price": 63697.28485170184,
+              "qty": 0.025584,
+              "proceeds_usd": 1629.63
+            },
+            {
+              "i": 675,
+              "action": "BUY",
+              "price": 59702.16101123682,
+              "qty": 0.032259,
+              "spend_usd": 1925.93
+            }
+          ]
+        }
+      }
+    }
+  }
+}

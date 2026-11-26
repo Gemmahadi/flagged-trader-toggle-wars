@@ -1,0 +1,10 @@
+file 'slide-title.png'
+duration 4
+file 'slide-experiment.png'
+duration 4
+file 'slide-arch.png'
+duration 4
+file 'slide-flags.png'
+duration 4
+file 'slide-closing.png'
+duration 4

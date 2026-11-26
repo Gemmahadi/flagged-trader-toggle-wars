@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>FlaggedTrader — Toggle Wars experiment</title>
+<style>body{font-family:system-ui,sans-serif;max-width:900px;margin:2em auto;
+padding:0 1em}table{border-collapse:collapse;width:100%}td,th{border:1px
+solid #ccc;padding:.4em;text-align:left}</style></head><body>
+<h1>FlaggedTrader — which strategy wins?</h1>
+<p><b>Track 02:</b> AI Agents &amp; Feature Flags (Toggle Wars, WeMakeDevs).
+<b>Live flags:</b> {'trader_strategy': 'conservative', 'enable_lyzr_reasoning': True, 'risk_per_trade': 0.1} (mode: flagsmith).
+<b>Data:</b> real CoinGecko 1h closes, 30d, replayed — no live trades, no
+real money. <b>Rule:</b> RSI(14) + SMA200, Adi's backtested system.
+Aggressive buys the oversold dip outright; conservative/balanced only buy
+it inside an uptrend.</p>
+<table><tr><th>Coin</th><th>Variant</th><th>Rule</th><th>Final $</th>
+<th>Return</th><th>Max drawdown</th><th>Trades</th></tr><tr><td>ETH</td><td>buy-and-hold</td><td>—</td><td>$7306.58</td><td>-26.93%</td><td>—</td><td>—</td></tr><tr><td>ETH</td><td>conservative</td><td>RSI&lt;25, 5%, + uptrend</td><td>$10000.0</td><td>0.0%</td><td>0.0%</td><td>0</td></tr><tr><td>ETH</td><td>balanced</td><td>RSI&lt;30, 10%, + uptrend</td><td>$10000.0</td><td>0.0%</td><td>0.0%</td><td>0</td></tr><tr><td>ETH</td><td>aggressive</td><td>RSI&lt;35, 20%, no filter</td><td>$9568.01</td><td>-4.32%</td><td>6.67%</td><td>3</td></tr><tr><td>BTC</td><td>buy-and-hold</td><td>—</td><td>$7592.57</td><td>-24.07%</td><td>—</td><td>—</td></tr><tr><td>BTC</td><td>conservative</td><td>RSI&lt;25, 5%, + uptrend</td><td>$10000.0</td><td>0.0%</td><td>0.0%</td><td>0</td></tr><tr><td>BTC</td><td>balanced</td><td>RSI&lt;30, 10%, + uptrend</td><td>$10000.0</td><td>0.0%</td><td>0.0%</td><td>0</td></tr><tr><td>BTC</td><td>aggressive</td><td>RSI&lt;35, 20%, no filter</td><td>$9655.94</td><td>-3.44%</td><td>5.75%</td><td>3</td></tr></table>
+<p><small>Generated 2026-11-26T07:29:20+00:00 UTC. FlaggedTrader by
+GEMMA WORKS — hackathon demo, not financial advice.</small></p>
+</body></html>
